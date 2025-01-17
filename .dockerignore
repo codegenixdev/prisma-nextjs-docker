@@ -1,0 +1,8 @@
+Dockerfile
+.dockerignore
+prisma/db-data
+node_modules
+npm-debug.log
+README.md
+.next
+.git

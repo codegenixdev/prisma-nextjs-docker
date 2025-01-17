@@ -1,0 +1,13 @@
+services:
+  nextjs-app:
+    build:
+      context: .
+    ports:
+      - "3010:3000"
+    env_file:
+      - .env
+    volumes:
+      - db-data:/app/prisma/db-data
+
+volumes:
+  db-data:
